@@ -1,0 +1,25 @@
+{
+  "name": "cs-typescript-setup",
+  "version": "1.0.0",
+  "description": "setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisdotchris/cs-typescript-setup.git"
+  },
+  "author": "christian john elmedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisdotchris/cs-typescript-setup/issues"
+  },
+  "homepage": "https://github.com/thisdotchris/cs-typescript-setup#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.22",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
